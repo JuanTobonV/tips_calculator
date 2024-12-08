@@ -10,11 +10,7 @@ export default function OrderContents({order, removeItem}:OrderContentsProps) {
   return (
     
     <>
-        {
-            order.length === 0 ?
-            <p className="text-center text-gray-400 font-medium pb-3"> La orden esta vacia</p> :
-            
-            order.map(item => (
+        {order.map(item => (
                 <div className="flex justify-between items-center mb-4 border-b-2 border-gray-400 p-2 gap-6" key={item.id}>
                     <div>
                         <p> 
