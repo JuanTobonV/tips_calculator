@@ -11,9 +11,9 @@ function App() {
   
   return (
     <>
-      <div className="bg-gray-100 h-screen flex">
+      <div className="bg-gray-100 h-fit flex">
 
-        <main className="max-w-7xl mx-auto my-auto max-h-fit grid md:grid-cols-2 bg-cyan-100 rounded-xl shadow-[0px_4px_6px_4px_rgba(0,_0,_0,_0.1)]">
+        <main className=" mt-9 mb-14 max-w-7xl mx-auto my-auto max-h-fit grid md:grid-cols-2 bg-cyan-100 rounded-xl shadow-[0px_4px_6px_4px_rgba(0,_0,_0,_0.1)]">
             <div className="bg-white p-8 rounded-l-xl">
               <h2 className="pb-4 font-bold text-3xl">Menú</h2>
               
